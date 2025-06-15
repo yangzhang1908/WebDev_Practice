@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <meta name="description" content="A professional portfolio showcasing front-end development skills and projects.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header role="banner">
+        <nav aria-label="Main Navigation">
+            <h1><a href="#home">Your Name</a></h1>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-me" aria-labelledby="about-me-heading">
+            <h2 id="about-me-heading">About Me</h2>
+            <p>Hello! I'm [Your Name], a passionate front-end developer with experience in creating responsive and user-friendly web applications. I enjoy bringing ideas to life through clean and efficient code, focusing on delivering exceptional user experiences. My expertise spans across modern web technologies, and I'm always eager to learn and adapt to new challenges in the ever-evolving world of web development.</p>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">My Projects</h2>
+            <div class="project-grid">
+                <article class="project-item">
+                    <h3>Project One: E-commerce Site</h3>
+                    <figure>
+                        <img src="https://via.placeholder.com/300x200/cccccc/ffffff?text=Project+1" alt="Screenshot of an e-commerce website showcasing products and a shopping cart.">
+                        <figcaption>A responsive e-commerce platform built with modern JavaScript frameworks.</figcaption>
+                    </figure>
+                    <p>Developed a full-featured e-commerce site, including product listings, user authentication, and a secure checkout process. Focused on performance optimization and intuitive navigation.</p>
+                    <a href="#" class="project-link" aria-label="View Project One">View Project</a>
+                </article>
+
+                <article class="project-item">
+                    <h3>Project Two: Task Management App</h3>
+                    <figure>
+                        <img src="https://via.placeholder.com/300x200/cccccc/ffffff?text=Project+2" alt="Screenshot of a task management application with a to-do list and progress tracking.">
+                        <figcaption>A simple yet effective task management application for daily organization.</figcaption>
+                    </figure>
+                    <p>Designed and implemented a task management application that allows users to create, update, and track their daily tasks. Features include drag-and-drop reordering and due date reminders.</p>
+                    <a href="#" class="project-link" aria-label="View Project Two">View Project</a>
+                </article>
+
+                <article class="project-item">
+                    <h3>Project Three: Weather Dashboard</h3>
+                    <figure>
+                        <img src="https://via.placeholder.com/300x200/cccccc/ffffff?text=Project+3" alt="Screenshot of a weather dashboard displaying current conditions and forecasts.">
+                        <figcaption>An interactive weather dashboard fetching real-time weather data from an API.</figcaption>
+                    </figure>
+                    <p>Created a dynamic weather dashboard that fetches and displays real-time weather information based on user location or search query, using a third-party API.</p>
+                    <a href="#" class="project-link" aria-label="View Project Three">View Project</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">My Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React</li>
+                <li>Vue.js</li>
+                <li>Responsive Design</li>
+                <li>Git & GitHub</li>
+                <li>Accessibility (WCAG)</li>
+                <li>SEO Best Practices</li>
+                <li>UI/UX Principles</li>
+            </ul>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
